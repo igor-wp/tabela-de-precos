@@ -80,5 +80,25 @@
 
 }
 .container .box-container .box .btn:hover{
-    background:crimson
+    background:crimson;
+}
+
+.container .price-toggler{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid #000;
+    background: #fff;
+}
+.container .price-toggler span{
+    padding: 7px 30px;
+    cursor: pointer;
+    color: #444;
+    font-size: 20px;
+    display: inline-block;
+}
+.container .price-toggler span.active{
+    background: #444;
+    color: #fff;
+
 }
