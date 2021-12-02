@@ -102,3 +102,9 @@
     color: #fff;
 
 }
+
+@media (max-width: 450px){
+    .container .box-container{
+        grid-template-columns: 1fr;
+    }
+}
