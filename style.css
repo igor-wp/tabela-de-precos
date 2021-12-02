@@ -28,8 +28,57 @@
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
 }
 
+.container .box-container .box:nth-child(2){
+    border: 2px solid #000;
+}
+.container .box-container .box:nth-child(2) .btn{
+    background: crimson;
+}
+.container .box-container .box:nth-child(2) .btn:hover{
+    background: #444;
+}
+
 .container .box-container .box h3{
     font-size: 25px;
     padding: 17px 0;
     color: #444;
+}
+
+.container .box-container .box .price{
+    color: #fff;
+    background: crimson;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.container .box-container .box .price.year{
+    display: none;
+}
+
+.container .box-container .box .list{
+    margin: 20px 0;
+}
+
+.container .box-container .box .list p{
+    padding: 15px 0;
+    font-size: 17px;
+    color: #666;
+}
+
+.container .box-container .box .list p i{
+    padding-right: 5px;
+    color: crimson;
+}
+
+.container .box-container .box .btn{
+    margin: 20px;
+    display: block;
+    font-size: 17px;
+    background: #444;
+    color: #fff;
+    padding: 10px;
+
+}
+.container .box-container .box .btn:hover{
+    background:crimson
 }
